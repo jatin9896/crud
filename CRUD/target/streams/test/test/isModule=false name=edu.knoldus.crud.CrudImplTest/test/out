@@ -1,0 +1,59 @@
+[0m[[0minfo[0m] [0m[32mCrudImplTest:[0m[0m
+[0m[[0minfo[0m] [0m[31m- emp insert *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.NullPointerException:[0m[0m
+[0m[[0minfo[0m] [0m[31m  at edu.knoldus.crud.CrudImpl$.addEmployee(CrudImpl.scala:19)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at edu.knoldus.crud.CrudImplTest.$anonfun$new$1(CrudImplTest.scala:10)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- emp fault *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  Expected exception java.lang.IllegalArgumentException to be thrown, but java.lang.NullPointerException was thrown (CrudImplTest.scala:13)[0m[0m
+[0m[[0minfo[0m] [0m[31m- dept insert *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.NullPointerException:[0m[0m
+[0m[[0minfo[0m] [0m[31m  at edu.knoldus.crud.CrudImpl$.addDepartment(CrudImpl.scala:45)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at edu.knoldus.crud.CrudImplTest.$anonfun$new$4(CrudImplTest.scala:18)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- dept fault *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  Expected exception java.lang.IllegalArgumentException to be thrown, but java.lang.NullPointerException was thrown (CrudImplTest.scala:21)[0m[0m
+[0m[[0minfo[0m] [0m[31m- client insert *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.NullPointerException:[0m[0m
+[0m[[0minfo[0m] [0m[31m  at edu.knoldus.crud.CrudImpl$.addClient(CrudImpl.scala:58)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at edu.knoldus.crud.CrudImplTest.$anonfun$new$7(CrudImplTest.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- client fault *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  Expected exception java.lang.IllegalArgumentException to be thrown, but java.lang.NullPointerException was thrown (CrudImplTest.scala:29)[0m[0m
+[0m[[0minfo[0m] [0m[31m- project insert *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.NullPointerException:[0m[0m
+[0m[[0minfo[0m] [0m[31m  at edu.knoldus.crud.CrudImpl$.addProject(CrudImpl.scala:32)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at edu.knoldus.crud.CrudImplTest.$anonfun$new$10(CrudImplTest.scala:34)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
